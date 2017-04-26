@@ -7,9 +7,9 @@
 "use strict";
 
 
-import {PropertyChangeData} from "ui/core/dependency-observable";
-import {PropertyMetadata} from "ui/core/proxy";
-import {Color} from "color";
+import { PropertyChangeData } from "ui/core/dependency-observable";
+import { PropertyMetadata } from "ui/core/proxy";
+import { Color } from "color";
 import common = require("./speedometer-common");
 
 
@@ -188,43 +188,33 @@ export class Speedometer extends common.Speedometer {
 
         if (this._meterWidth)
             this.meterWidth = this._meterWidth;
-        // this.setSpeedometerWidth(this.meterWidth);
 
         if (this._tremble)
             this.tremble = this._tremble;
-        // this.setWithTremble(this.tremble);
 
         if (this._maxSpeed)
             this.maxSpeed = this._maxSpeed;
-        // this.setMaxSpeed(this.maxSpeed);
 
         if (this._indicatorColor)
             this.indicatorColor = this._indicatorColor;
-        // this.setIndicatorColor(this.indicatorColor);
 
         if (this._centerCircleColor)
             this.centerCircleColor = this._centerCircleColor;
-        // this.setCenterCircleColor(this.centerCircleColor);
 
         if (this._markColor)
             this.markColor = this._markColor;
-        // this.setMarkColor(this.markColor);
 
         if (this._lowSpeedColor)
             this.lowSpeedColor = this._lowSpeedColor;
-        // this.setLowSpeedColor(this.lowSpeedColor);
 
         if (this._mediumSpeedColor)
             this.mediumSpeedColor = this._mediumSpeedColor;
-        // this.setMediumSpeedColor(this.mediumSpeedColor);
 
         if (this._highSpeedColor)
             this.highSpeedColor = this._highSpeedColor;
-        // this.setHighSpeedColor(this.highSpeedColor);
 
         if (this._textColor)
             this.textColor = this._textColor;
-        // this.setTextColor(this.textColor);
     }
 
 
