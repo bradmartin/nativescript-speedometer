@@ -1,0 +1,20 @@
+<Page 
+    xmlns="http://schemas.nativescript.org/tns.xsd" 
+    xmlns:Speedometer="nativescript-speedometer" navigatingTo="navigatingTo">
+    <StackLayout>
+        <stack-layout orientation="horizontal">
+            <Button text="Start Engine" tap="{{ startEngine }}"/>
+            <Button text="50" tap="{{ goTo50 }}"/>
+            <Button text="82" tap="{{ goTo82 }}"/>
+            <Button text="Stop" tap="{{ stop }}"/>
+        </stack-layout>
+        <Speedometer:Speedometer id="meter"
+        lowSpeedColor="#ff4081" mediumSpeedColor="#3489db" 
+        highSpeedColor="#336699" meterWidth="200" 
+        horizontalAlignment="center"/>
+        <stack-layout orientation="horizontal">
+            <button text="Tremble" tap="{{ toggleTremble }}"/>
+            <button text="Change Color" tap="{{ toggleColors }}"/>
+        </stack-layout>
+    </StackLayout>
+</Page>

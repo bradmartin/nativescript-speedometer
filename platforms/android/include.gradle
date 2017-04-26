@@ -1,0 +1,12 @@
+//default elements
+android {
+    productFlavors {
+        "nativescriptspeedview" {
+            dimension "nativescriptspeedview"
+        }
+    }
+}
+
+dependencies {
+    compile 'com.github.anastr:speedviewlib:1.0.0'
+}
